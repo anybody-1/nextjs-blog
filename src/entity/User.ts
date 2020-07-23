@@ -5,12 +5,12 @@ export class User {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column("text")
   firstName: string;
 
-  @Column()
+  @Column("text")
   lastName: string;
 
-  @Column()
+  @Column("init")
   age: number;
 }
