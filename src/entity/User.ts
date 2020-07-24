@@ -11,6 +11,6 @@ export class User {
   @Column("text")
   lastName: string;
 
-  @Column("init")
+  @Column("int")
   age: number;
 }
