@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"babel -w ./src --out-dir dist --extensions .ts,.tsx\"",
     "build": "next build",
     "start": "next start",
     "typeorm:build": "babel -w ./src --out-dir dist --extensions .ts,.tsx",
@@ -33,6 +33,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/typescript": "^2.0.0",
     "@types/ua-parser-js": "^0.7.33",
+    "concurrently": "^5.2.0",
     "file-loader": "^6.0.0",
     "gray-matter": "^4.0.2"
   }
