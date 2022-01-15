@@ -16,7 +16,7 @@
   "dependencies": {
     "@babel/cli": "^7.10.5",
     "axios": "^0.19.2",
-    "marked": "^1.1.1",
+    "marked": "^4.0.10",
     "next": "9.4.4",
     "pg": "^8.3.0",
     "react": "16.13.1",
